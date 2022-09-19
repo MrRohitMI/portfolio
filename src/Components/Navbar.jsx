@@ -28,7 +28,7 @@ import { BsLinkedin, BsGithub, BsTwitter } from "react-icons/bs";
 import { Link } from "react-scroll";
 import Profile from "../Assets/mypic.png"
 
-const Links = ["About", "Skills","Projects"];
+const Links = ["About", "TechStack","Skills","Projects"];
 
 const NavLink = ({ children }) => (
   <Link

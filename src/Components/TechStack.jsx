@@ -46,9 +46,9 @@ import {
     );
   };
   
-  export default function Skills() {
+  export default function TechStack() {
     return (
-      <Container maxW={"5xl"} py={12} id="Skills">
+      <Container maxW={"5xl"} py={12} id="TechStack">
         <SimpleGrid columns={{ base: 1, md: 2 }} spacing={10}>
           <Stack spacing={4}>
             <Text
@@ -61,7 +61,7 @@ import {
               alignSelf={"flex-start"}
               rounded={"md"}
             >
-               My Skills
+               Tech Stack
             </Text>
             <Heading>I persist the Following Skills</Heading>
             <Text color={"gray.500"} fontSize={"lg"}>
@@ -78,16 +78,33 @@ import {
                     />
                   }
                 >
-                  {/* <Feature
+                  <Feature
                     icon={<Icon as={SiHtml5} color={"yellow.500"} w={5} h={5} />}
                     iconBg={useColorModeValue("yellow.100", "yellow.900")}
                     text={"HTML"}
-                  /> */}
-                  <Text fontSize="20px" fontWeight="bold">Tech Skills</Text>
-                  <Text fontSize="18px" color="red">Frontend Development</Text>
-                  <Text fontSize="18px" color="purple">Backend Development</Text>
-                  <Text fontSize="18px" color="green">Data Structures and Algorithm</Text>
-                  
+                  />
+                  <Feature
+                    icon={<Icon as={SiCss3} color={"green.500"} w={5} h={5} />}
+                    iconBg={useColorModeValue("green.100", "green.900")}
+                    text={"CSS"}
+                  />
+                  <Feature
+                    icon={
+                      <Icon as={DiJavascript1} color={"purple.500"} w={5} h={5} />
+                    }
+                    iconBg={useColorModeValue("purple.100", "purple.900")}
+                    text={"JavaScript"}
+                  />
+                  <Feature
+                    icon={<Icon as={FaReact} color={"green.500"} w={5} h={5} />}
+                    iconBg={useColorModeValue("green.100", "green.900")}
+                    text={"React Js"}
+                  />
+                  <Feature
+                    icon={<Icon as={SiRedux} color={"yellow.500"} w={5} h={5} />}
+                    iconBg={useColorModeValue("yellow.100", "yellow.900")}
+                    text={"Redux"}
+                  />
                 </Stack>
               </Box>
               <Box>
@@ -99,11 +116,35 @@ import {
                     />
                   }
                 >
-                  <Text fontSize="20px" fontWeight="bold">Soft Skills</Text>
-                  <Text fontSize="18px" color="teal">Teamwork</Text>
-                  <Text fontSize="18px" color="orange">Problem-Solving</Text>
-                  <Text fontSize="18px" color="tomato">Adaptability</Text>
-                  <Text fontSize="18px" color="green">Work Ethic</Text>
+                  <Feature
+                    icon={<Icon as={FaNodeJs} color={"yellow.500"} w={5} h={5} />}
+                    iconBg={useColorModeValue("yellow.100", "yellow.900")}
+                    text={"Node Js"}
+                  />
+                  <Feature
+                    icon={<Icon as={SiExpress} color={"green.500"} w={5} h={5} />}
+                    iconBg={useColorModeValue("green.100", "green.900")}
+                    text={"Express Js"}
+                  />
+                  <Feature
+                    icon={
+                      <Icon as={SiMongodb} color={"purple.500"} w={5} h={5} />
+                    }
+                    iconBg={useColorModeValue("purple.100", "purple.900")}
+                    text={"Mongo Db"}
+                  />
+                  <Feature
+                    icon={<Icon as={FaGithub} color={"green.500"} w={5} h={5} />}
+                    iconBg={useColorModeValue("green.100", "green.900")}
+                    text={"Git & Github"}
+                  />
+                  <Feature
+                    icon={
+                      <Icon as={SiPostman} color={"yellow.500"} w={5} h={5} />
+                    }
+                    iconBg={useColorModeValue("yellow.100", "yellow.900")}
+                    text={"Postman"}
+                  />
                 </Stack>
               </Box>
             </Flex>
@@ -113,7 +154,7 @@ import {
               rounded={"md"}
               alt={"feature image"}
               src={
-                "https://img.freepik.com/premium-vector/mobile-application-development-concept-illustration-er-developer-using-big-screen-with-site-building-tools_251235-63.jpg?w=740"
+                "https://images.unsplash.com/photo-1553390774-b4822481c894?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fHdlYiUyMGRldmVsb3BlcnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
               }
               objectFit={"cover"}
             />
