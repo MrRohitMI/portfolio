@@ -63,10 +63,9 @@ import {
             >
                Tech Stack
             </Text>
-            <Heading>I persist the Following Skills</Heading>
+            <Heading>There are my some Tech Stacks</Heading>
             <Text color={"gray.500"} fontSize={"lg"}>
-              Mentioned below are the skillsets which I possess in terms of Tech
-              and Communication and Behavior.
+              Mentioned below are the my Frontend & Backend Tech Stacks.
             </Text>
             <Flex gap={10}>
               <Box>
