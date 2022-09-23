@@ -12,6 +12,7 @@ import {
   import Typed from "react-typed";
   import Profile from "../Assets/mypic.png"  
   import ReactTyped from "react-typed";
+  import Resume from "../Assets/Rohit_Mourya_Resume.pdf"
   
   export default function About() {
     return (
@@ -67,8 +68,9 @@ import {
               >
                 <Link
                   style={{ textDecoration: "none" }}
-                  href="https://drive.google.com/file/d/1AGCUI_-5-LYxU1uXpTmtl-UTrxIGfNnC/view?usp=sharing"
-                  target={"_blank"}
+                  href={Resume}
+                  // target={"_blank"}
+                  download='Rohit_Mourya_Resume'
                 >
                   My Resume
                 </Link>
@@ -77,7 +79,7 @@ import {
                 <Link
                   style={{ textDecoration: "none" }}
                   target={"_blank"}
-                  href="#"
+                  href="https://github.com/MrRohitMI"
                 >
                   My Projects
                 </Link>
@@ -92,11 +94,11 @@ import {
                   <BsLinkedin />
                 </Link>
               </Button>
-              <Button>
+              {/* <Button>
                 <Link href="#" target={"_blank"}>
                   <BsTwitter />
                 </Link>
-              </Button>
+              </Button> */}
               <Button>
                 <Link href="https://github.com/MrRohitMI" target={"_blank"}>
                   <BsGithub />

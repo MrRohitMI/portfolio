@@ -115,7 +115,7 @@ import {
                     />
                   </Link>
   
-                  <Link target="_blank" href="#">
+                  {/* <Link target="_blank" href="#">
                     <IconButton
                       aria-label="twitter"
                       variant="ghost"
@@ -127,7 +127,7 @@ import {
                       }}
                       isRound
                     />
-                  </Link>
+                  </Link> */}
   
                   <Link
                     target="_blank"

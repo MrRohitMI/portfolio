@@ -6,6 +6,8 @@ import TechStack from './Components/TechStack';
 import Projects from './Components/Projects';
 import Contact from './Components/Contact'
 import Skills from './Components/Skills'
+import Statistics from './Components/Statistics/Statistics';
+import Calendar from './Components/Calender';
 function App() {
   return (
     <div className="App">
@@ -14,6 +16,8 @@ function App() {
       <TechStack/>
       <Skills/>
       <Projects/>
+      <Statistics/>
+      <Calendar/>
       <Contact/>
     </div>
   );

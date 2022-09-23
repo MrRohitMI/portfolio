@@ -138,11 +138,11 @@ export default function Navbar() {
                     Linkedin
                   </a>
                 </MenuItem>
-                <MenuItem>
+                {/* <MenuItem>
                   <a target="_blank" href="#">
                     Twitter
                   </a>
-                </MenuItem>
+                </MenuItem> */}
                 <MenuDivider />
                 <MenuItem>
                   <a target="_blank" href="https://github.com/MrRohitMI">
