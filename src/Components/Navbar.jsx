@@ -68,7 +68,7 @@ export default function Navbar() {
             size={"md"}
             icon={isOpen ? <CloseIcon /> : <HamburgerIcon />}
             aria-label={"Open Menu"}
-            display={{ md: "none" }}
+            display={{ lg: "none" }}
             onClick={isOpen ? onClose : onOpen}
           />
           <HStack spacing={8} alignItems={"center"}>
@@ -78,11 +78,12 @@ export default function Navbar() {
             <HStack
               as={"nav"}
               spacing={4}
-              display={{ base: "none", md: "flex" }}
+              display={{ base: "none", lg: "flex" }}
             >
               {Links.map((link) => (
                 <NavLink key={link}>{link}</NavLink>
               ))}
+              <a href="https://drive.google.com/file/d/1AGCUI_-5-LYxU1uXpTmtl-UTrxIGfNnC/view?usp=sharing" target="blank">Resume</a>
             </HStack>
           </HStack>
           <Flex alignItems={"center"} gap={5}>
@@ -155,11 +156,12 @@ export default function Navbar() {
         </Flex>
 
         {isOpen ? (
-          <Box pb={4} display={{ md: "none" }}>
+          <Box pb={4} display={{ lg: "none" }}>
             <Stack as={"nav"} spacing={4}>
               {Links.map((link) => (
                 <NavLink key={link}>{link}</NavLink>
               ))}
+              <a href="https://drive.google.com/file/d/1AGCUI_-5-LYxU1uXpTmtl-UTrxIGfNnC/view?usp=sharing" target="blank">Resume</a>
             </Stack>
           </Box>
         ) : null}

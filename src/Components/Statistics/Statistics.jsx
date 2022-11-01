@@ -1,9 +1,11 @@
 import React from 'react'
+import GitStatistics from '../GitStatistics'
 import './Statistics.css'
 const Statistics = () => {
   return (
     <>
      <h1 style={{textAlign:'left',fontSize:'40px',fontWeight:'bold',marginLeft:'7%',marginBottom:'40px'}}> Statistics </h1>
+     <GitStatistics/>
     <div className="stat">
             <div className="individualStat">
                        <div>1200+</div>

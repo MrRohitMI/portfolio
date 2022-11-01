@@ -7,6 +7,7 @@ import {
     Link,
     Text,
     useBreakpointValue,
+    Avatar
   } from "@chakra-ui/react";
   import { BsLinkedin, BsGithub, BsTwitter } from "react-icons/bs";
   import Typed from "react-typed";
@@ -17,7 +18,7 @@ import {
   export default function About() {
     return (
       <Stack
-        minH={"100vh"}
+        minH={{base:"100vh",lg:"100vh",md:"60vh"}}
         direction={{ base: "column", md: "row" }}
         pt={10}
         id="About"
@@ -108,16 +109,17 @@ import {
           </Stack>
         </Flex>
         <Flex flex={1}>
-          <Image
-            h="70%"
-            borderRadius="10%"
-            mt="10%"
-            alt={"Login Image"}
-            objectFit={"cover"}
-            src={
-              Profile
-            }
-          />
+        <Avatar
+        w="350px"
+        h="400px"
+        src={Profile}
+        alt="Rohit Image"
+        loading="eager"
+        mb="4"
+        alignSelf="center"
+        borderRadius="10%"
+        m="auto"
+      />
         </Flex>
       </Stack>
     );

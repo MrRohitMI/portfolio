@@ -8,6 +8,7 @@ import Contact from './Components/Contact'
 import Skills from './Components/Skills'
 import Statistics from './Components/Statistics/Statistics';
 import Calendar from './Components/Calender';
+import GitStatistics from './Components/GitStatistics';
 function App() {
   return (
     <div className="App">
