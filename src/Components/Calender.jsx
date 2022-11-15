@@ -5,7 +5,7 @@ import {Box,Heading} from "@chakra-ui/react"
 
 function Calendar() {
   return (
-    <Box ml={['0%','0%','10%']} maxWidth='100%'>
+    <Box ml={['0%','0%','0%','11%','11%']} maxWidth='100%'>
     <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
       <Heading paddingBottom='0px' textAlign="center" fontSize='40px' fontWeight='bold' marginRight={['0%','0%','10%']} mb='40px'>
         Days I <strong className="purple">Code</strong>

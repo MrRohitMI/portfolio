@@ -58,6 +58,23 @@ import {
             <Text fontSize={{ base: "md", lg: "lg" }} color={"gray.500"}>
             A passionate full-stack web developer, who loves to buid nice projects and work in a team. I want to achieve global recognition and exposure with my skillset, toolset and mindset.
             </Text>
+            <Flex gap={2}>
+          <Text color={"blue.400"} fontWeight={"bold"}>Phone Number ➠ </Text>
+          <Link href={"tel:+9927866974"} isExternal bg="transparent" color={"gray.500"}>
+            +91 9927866974
+          </Link>
+        </Flex>
+        <Flex gap={2} mb={5}>
+          <Text color={"blue.400"} fontWeight={"bold"}>Email-ID ➠ </Text>
+          <Link
+            href={"mailto: rohitmourya0012@gmail.com"}
+            isExternal
+            bg="transparent"
+            color={"gray.500"}
+          >
+            rohitmourya0012@gmail.com
+          </Link>
+        </Flex>
             <Stack direction={{ base: "column", md: "row" }} spacing={4}>
               <Button
                 rounded={"full"}
