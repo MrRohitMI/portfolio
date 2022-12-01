@@ -86,6 +86,32 @@ const Projects = () => {
         templateColumns={["repeat(1, 1fr)", "repeat(1, 1fr)", "repeat(2, 1fr)"]}
         gap={"2"}
       >
+          <GridItem>
+          <Card
+            img={"https://i.postimg.cc/7PgsvbPh/image-2.png"}
+            tag={["Collaborative", "E-Commerce"]}
+            tsTags={["ReactJS", "NodeJS", "MongoDB","ExpressJS","Chakra UI","Firebase","JavaScript","Vercel","Railway","CSS"]}
+            heading={"Sephora Clone"}
+            content={
+              "An e-commerce platform to buy cosmetic & skincare products."
+            }
+            deploy={"https://sephora-pink.vercel.app/"}
+            git={"https://github.com/MrRohitMI/sephora-clone"}
+          />
+        </GridItem>
+        <GridItem>
+          <Card
+            img={"https://i.postimg.cc/5ym7v9sf/image-3.png"}
+            tag={["Collaborative", "Time tracking"]}
+            tsTags={["ReactJS", "NodeJS", "MongoDB","ExpressJS","Redux","Chakra UI","Netlify","HTML","CSS","JavaScript"]}
+            heading={"TimeCamp Clone"}
+            content={
+              "TimeCamp is a time tracking app to help you gain insights into your projects and tasks."
+            }
+            deploy={"https://roaring-travesseiro-7b0d65.netlify.app/"}
+            git={"https://github.com/bishal00sharma/TimeCampClone"}
+          />
+        </GridItem>
         <GridItem>
           <Card
             img={"https://i.postimg.cc/FmhJKYQX/image-7.png"}
@@ -93,7 +119,7 @@ const Projects = () => {
             tsTags={["HTML", "CSS", "JavaScript","LocalStorage","Bootstrap","Webscrap","Slick Slider","Jquery"]}
             heading={"Dot&Key Clone"}
             content={
-              "An e-commerce platform to buy skin care products."
+              "An e-commerce platform to buy skincare products."
             }
             deploy={"https://dotandkeyclone.netlify.app/"}
             git={"https://github.com/MrRohitMI/Dot-key"}
@@ -125,7 +151,7 @@ const Projects = () => {
           <Card
             img={"https://i.postimg.cc/QDmRF1kh/image-8.png"}
             tag={["Solo", "News"]}
-            tsTags={["ReactJs","HTML", "CSS", "JavaScript","Chakra UI"]}
+            tsTags={["ReactJS","HTML", "CSS", "JavaScript","Chakra UI"]}
             heading={"The Hindu Clone"}
             content={
               "First project on React-Js, which came with a lot of challenges."
@@ -138,7 +164,7 @@ const Projects = () => {
           <Card
             img={"https://i.postimg.cc/qB95KzVy/image-9.png"}
             tag={["Solo", "Weight Loss"]}
-            tsTags={["ReactJs","Chakra UI","HTML", "CSS", "JavaScript", "Bootstrap","REST-API"]}
+            tsTags={["ReactJS","Chakra UI","HTML", "CSS", "JavaScript", "Bootstrap","REST-API"]}
             heading={"Lose It Clone"}
             content={
               "Lose It! is mobilizing the world to achieve a healthy weight."
