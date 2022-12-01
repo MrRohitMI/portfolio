@@ -106,7 +106,7 @@ const Projects = () => {
             tsTags={["ReactJS", "NodeJS", "MongoDB","ExpressJS","Redux","Chakra UI","Netlify","HTML","CSS","JavaScript"]}
             heading={"TimeCamp Clone"}
             content={
-              "TimeCamp is a time tracking app to help you gain insights into your projects and tasks."
+              "TimeCamp is a time tracking software perfect for both teams and freelancers."
             }
             deploy={"https://roaring-travesseiro-7b0d65.netlify.app/"}
             git={"https://github.com/bishal00sharma/TimeCampClone"}
