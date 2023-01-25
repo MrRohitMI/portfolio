@@ -95,7 +95,7 @@ const Projects = () => {
             content={
               "An e-commerce platform to buy cosmetic & skincare products."
             }
-            deploy={"https://sephora-pink.vercel.app/"}
+            deploy={"https://client-seven-nu.vercel.app/"}
             git={"https://github.com/MrRohitMI/sephora-clone"}
           />
         </GridItem>
@@ -109,7 +109,7 @@ const Projects = () => {
               "TimeCamp is a time tracking software perfect for both teams and freelancers."
             }
             deploy={"https://roaring-travesseiro-7b0d65.netlify.app/"}
-            git={"https://github.com/bishal00sharma/TimeCampClone"}
+            git={"https://github.com/MrRohitMI/Timecamp-Clone"}
           />
         </GridItem>
         <GridItem>

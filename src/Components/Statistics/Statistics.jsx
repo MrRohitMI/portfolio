@@ -12,7 +12,7 @@ const Statistics = () => {
                         <div><h3>Hours</h3>of Coding</div>
             </div>
            <div className="individualStat">
-                      <div >600+</div>
+                      <div>600+</div>
                      <div><h3>DSA</h3>Problems</div>
            </div>
             <div className="individualStat">
